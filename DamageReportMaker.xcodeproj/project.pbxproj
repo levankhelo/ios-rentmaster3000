@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165837F1C02ABD55EAC85F63 /* ReportDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87F827DFD8F8001A807A49 /* ReportDetailsView.swift */; };
+		18E681112ECB03192D73D463 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDF8965726CA6428563F96 /* AppRootView.swift */; };
+		19B0712C48ACF83983973CEF /* DamageReportMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8F5FC866AB151445CFC3C /* DamageReportMakerApp.swift */; };
+		3341C82D1610BEFF4463FC03 /* ReviewReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5885BD972473184EEBA676 /* ReviewReportView.swift */; };
+		3B703FCF3D7EFE3E0CA992F0 /* ReportDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AA43BEA91B30D5EED21AAE /* ReportDraft.swift */; };
+		46E15A14A4638F0D8894E435 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161DB0664ED7E9E4BB5D9896 /* HomeView.swift */; };
+		56CA214D6062306E2D9EF446 /* DamageReportMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235CA39B8072C3BF2C8D2E4 /* DamageReportMakerTests.swift */; };
+		60B5E27EC5ECD71F2D308735 /* DraftStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E51CC122BD8E7381E1EEF /* DraftStore.swift */; };
+		6B9B8E43116E6BFF36EAB2E3 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F412FF2253902D0C39FD9 /* AppTheme.swift */; };
+		79E232BA24B2E7401A1C40F9 /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C39863374AEC10CD8AAB660 /* PricingView.swift */; };
+		7C3BE43D0F2E848DB4A54394 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2FCFEF0C3A968D6AF3B219 /* ImageProcessor.swift */; };
+		8746E6DB87D4FC5A0C340D03 /* ReportFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2F119CE90D994FA87B374 /* ReportFormatting.swift */; };
+		978E2A2F738AB45CB122EB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDEDCB84676B14E66D13185 /* Assets.xcassets */; };
+		A16E51CAF578CAFD29BAA2F5 /* DamageReportMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA55669F765BBE6A7E3A35B /* DamageReportMakerUITests.swift */; };
+		A9928087397B7D5154CB6227 /* PDFReportGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6F15AB32DC6D47B1E584A /* PDFReportGenerator.swift */; };
+		C7EEB39E25CA803EB654D943 /* ComplaintLetterGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772AB4F6B0C4F626A4093161 /* ComplaintLetterGenerator.swift */; };
+		CFACE727190E9E151555DB40 /* FlowStepRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE6D38324AAE9E6CE050EA /* FlowStepRow.swift */; };
+		EDE249818905F54B9589399E /* PrimaryActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC52F0216E56665C70559C2 /* PrimaryActionButton.swift */; };
+		F3E66C09CE148DA6272DB12A /* EvidenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37585EFC6CE0147DADFD633 /* EvidenceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30BA3B4E2E856239DFE83DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A3341EAF4E77365DF34FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E7F0DD59C2C70BA7406CE9;
+			remoteInfo = DamageReportMaker;
+		};
+		8E1A5C6E2BC11CB2F59743E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A3341EAF4E77365DF34FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E7F0DD59C2C70BA7406CE9;
+			remoteInfo = DamageReportMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DDF8965726CA6428563F96 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		08D8F5FC866AB151445CFC3C /* DamageReportMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageReportMakerApp.swift; sourceTree = "<group>"; };
+		0AEE6D38324AAE9E6CE050EA /* FlowStepRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStepRow.swift; sourceTree = "<group>"; };
+		161DB0664ED7E9E4BB5D9896 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1BE2F119CE90D994FA87B374 /* ReportFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFormatting.swift; sourceTree = "<group>"; };
+		27161FF8E61EFA05CBED333D /* DamageReportMakerUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DamageReportMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8F412FF2253902D0C39FD9 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		3C39863374AEC10CD8AAB660 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
+		4235CA39B8072C3BF2C8D2E4 /* DamageReportMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageReportMakerTests.swift; sourceTree = "<group>"; };
+		47BB87749E46193BE58BDA04 /* DamageReportMakerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DamageReportMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C87F827DFD8F8001A807A49 /* ReportDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailsView.swift; sourceTree = "<group>"; };
+		54A6F15AB32DC6D47B1E584A /* PDFReportGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReportGenerator.swift; sourceTree = "<group>"; };
+		5B7E51CC122BD8E7381E1EEF /* DraftStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftStore.swift; sourceTree = "<group>"; };
+		772AB4F6B0C4F626A4093161 /* ComplaintLetterGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintLetterGenerator.swift; sourceTree = "<group>"; };
+		7EF55FED12F40938082B9510 /* DamageReportMaker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DamageReportMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA55669F765BBE6A7E3A35B /* DamageReportMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageReportMakerUITests.swift; sourceTree = "<group>"; };
+		9FC52F0216E56665C70559C2 /* PrimaryActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryActionButton.swift; sourceTree = "<group>"; };
+		B1AA43BEA91B30D5EED21AAE /* ReportDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDraft.swift; sourceTree = "<group>"; };
+		B37585EFC6CE0147DADFD633 /* EvidenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenceView.swift; sourceTree = "<group>"; };
+		BBDEDCB84676B14E66D13185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE5885BD972473184EEBA676 /* ReviewReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewReportView.swift; sourceTree = "<group>"; };
+		FE2FCFEF0C3A968D6AF3B219 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0BB675E41D9EFAABABE00C31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBDEDCB84676B14E66D13185 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26DF34757050AFFF961A4D91 /* ReportFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B37585EFC6CE0147DADFD633 /* EvidenceView.swift */,
+				4C87F827DFD8F8001A807A49 /* ReportDetailsView.swift */,
+				CE5885BD972473184EEBA676 /* ReviewReportView.swift */,
+			);
+			path = ReportFlow;
+			sourceTree = "<group>";
+		};
+		3AB759ABA7C931B5F8902FF8 /* DamageReportMaker */ = {
+			isa = PBXGroup;
+			children = (
+				D7F352D4EBD06B5ADDA8FA56 /* App */,
+				B40257D4D8AEDBCD12BDC8D0 /* Models */,
+				0BB675E41D9EFAABABE00C31 /* Resources */,
+				C57AF851250339582A553144 /* Services */,
+				92FA9D16036A4993FB5507E1 /* Theme */,
+				B73E2BC1795D1C2401AC0453 /* Views */,
+			);
+			path = DamageReportMaker;
+			sourceTree = "<group>";
+		};
+		4A82398645EAD84302611F3B /* DamageReportMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA55669F765BBE6A7E3A35B /* DamageReportMakerUITests.swift */,
+			);
+			path = DamageReportMakerUITests;
+			sourceTree = "<group>";
+		};
+		7B0619401E57C6FD4DC7F560 /* DamageReportMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4235CA39B8072C3BF2C8D2E4 /* DamageReportMakerTests.swift */,
+			);
+			path = DamageReportMakerTests;
+			sourceTree = "<group>";
+		};
+		92FA9D16036A4993FB5507E1 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F412FF2253902D0C39FD9 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A0A0D9EDED225C0F0D67B1DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55FED12F40938082B9510 /* DamageReportMaker.app */,
+				47BB87749E46193BE58BDA04 /* DamageReportMakerTests.xctest */,
+				27161FF8E61EFA05CBED333D /* DamageReportMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40257D4D8AEDBCD12BDC8D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1AA43BEA91B30D5EED21AAE /* ReportDraft.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B73E2BC1795D1C2401AC0453 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				161DB0664ED7E9E4BB5D9896 /* HomeView.swift */,
+				3C39863374AEC10CD8AAB660 /* PricingView.swift */,
+				CE80FBA74C555B5C92D28914 /* Components */,
+				26DF34757050AFFF961A4D91 /* ReportFlow */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C57AF851250339582A553144 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				772AB4F6B0C4F626A4093161 /* ComplaintLetterGenerator.swift */,
+				5B7E51CC122BD8E7381E1EEF /* DraftStore.swift */,
+				FE2FCFEF0C3A968D6AF3B219 /* ImageProcessor.swift */,
+				54A6F15AB32DC6D47B1E584A /* PDFReportGenerator.swift */,
+				1BE2F119CE90D994FA87B374 /* ReportFormatting.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE80FBA74C555B5C92D28914 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0AEE6D38324AAE9E6CE050EA /* FlowStepRow.swift */,
+				9FC52F0216E56665C70559C2 /* PrimaryActionButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D7F352D4EBD06B5ADDA8FA56 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07DDF8965726CA6428563F96 /* AppRootView.swift */,
+				08D8F5FC866AB151445CFC3C /* DamageReportMakerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DF91A466FAE7B68B162A4815 = {
+			isa = PBXGroup;
+			children = (
+				3AB759ABA7C931B5F8902FF8 /* DamageReportMaker */,
+				7B0619401E57C6FD4DC7F560 /* DamageReportMakerTests */,
+				4A82398645EAD84302611F3B /* DamageReportMakerUITests */,
+				A0A0D9EDED225C0F0D67B1DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E7F0DD59C2C70BA7406CE9 /* DamageReportMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56764486B67CD53EE5AECCA /* Build configuration list for PBXNativeTarget "DamageReportMaker" */;
+			buildPhases = (
+				9CA5952D5365686F76E67EB6 /* Sources */,
+				EFA142C84FE428825A78D1AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DamageReportMaker;
+			packageProductDependencies = (
+			);
+			productName = DamageReportMaker;
+			productReference = 7EF55FED12F40938082B9510 /* DamageReportMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B116B548CA7DD5428E5ECA /* DamageReportMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D279151AFAF543DCB28C82CC /* Build configuration list for PBXNativeTarget "DamageReportMakerTests" */;
+			buildPhases = (
+				73747C6A6276A6EB23677E09 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EA8DF34C674BADBC7C3E63 /* PBXTargetDependency */,
+			);
+			name = DamageReportMakerTests;
+			packageProductDependencies = (
+			);
+			productName = DamageReportMakerTests;
+			productReference = 47BB87749E46193BE58BDA04 /* DamageReportMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89FC998979AF1018BB2D751C /* DamageReportMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E028079283BF548A4D8E45CC /* Build configuration list for PBXNativeTarget "DamageReportMakerUITests" */;
+			buildPhases = (
+				782860B9749FAC9565B1E746 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540D58E5BAF4D4472C3613A0 /* PBXTargetDependency */,
+			);
+			name = DamageReportMakerUITests;
+			packageProductDependencies = (
+			);
+			productName = DamageReportMakerUITests;
+			productReference = 27161FF8E61EFA05CBED333D /* DamageReportMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A3341EAF4E77365DF34FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					27E7F0DD59C2C70BA7406CE9 = {
+						ProvisioningStyle = Automatic;
+					};
+					89FC998979AF1018BB2D751C = {
+						TestTargetID = 27E7F0DD59C2C70BA7406CE9;
+					};
+				};
+			};
+			buildConfigurationList = 9E9A0FFBC3FB8D0E7FDAD561 /* Build configuration list for PBXProject "DamageReportMaker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DF91A466FAE7B68B162A4815;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A0A0D9EDED225C0F0D67B1DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E7F0DD59C2C70BA7406CE9 /* DamageReportMaker */,
+				83B116B548CA7DD5428E5ECA /* DamageReportMakerTests */,
+				89FC998979AF1018BB2D751C /* DamageReportMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA142C84FE428825A78D1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978E2A2F738AB45CB122EB1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73747C6A6276A6EB23677E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA214D6062306E2D9EF446 /* DamageReportMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782860B9749FAC9565B1E746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16E51CAF578CAFD29BAA2F5 /* DamageReportMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA5952D5365686F76E67EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E681112ECB03192D73D463 /* AppRootView.swift in Sources */,
+				6B9B8E43116E6BFF36EAB2E3 /* AppTheme.swift in Sources */,
+				C7EEB39E25CA803EB654D943 /* ComplaintLetterGenerator.swift in Sources */,
+				19B0712C48ACF83983973CEF /* DamageReportMakerApp.swift in Sources */,
+				60B5E27EC5ECD71F2D308735 /* DraftStore.swift in Sources */,
+				F3E66C09CE148DA6272DB12A /* EvidenceView.swift in Sources */,
+				CFACE727190E9E151555DB40 /* FlowStepRow.swift in Sources */,
+				46E15A14A4638F0D8894E435 /* HomeView.swift in Sources */,
+				7C3BE43D0F2E848DB4A54394 /* ImageProcessor.swift in Sources */,
+				A9928087397B7D5154CB6227 /* PDFReportGenerator.swift in Sources */,
+				79E232BA24B2E7401A1C40F9 /* PricingView.swift in Sources */,
+				EDE249818905F54B9589399E /* PrimaryActionButton.swift in Sources */,
+				165837F1C02ABD55EAC85F63 /* ReportDetailsView.swift in Sources */,
+				3B703FCF3D7EFE3E0CA992F0 /* ReportDraft.swift in Sources */,
+				8746E6DB87D4FC5A0C340D03 /* ReportFormatting.swift in Sources */,
+				3341C82D1610BEFF4463FC03 /* ReviewReportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34EA8DF34C674BADBC7C3E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E7F0DD59C2C70BA7406CE9 /* DamageReportMaker */;
+			targetProxy = 30BA3B4E2E856239DFE83DBE /* PBXContainerItemProxy */;
+		};
+		540D58E5BAF4D4472C3613A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E7F0DD59C2C70BA7406CE9 /* DamageReportMaker */;
+			targetProxy = 8E1A5C6E2BC11CB2F59743E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47B3D30F72A9CB5D8786B101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levankhelo.DamageReportMakerUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DamageReportMaker;
+			};
+			name = Debug;
+		};
+		51679507722C29CAF05A2B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		549A669EDB5159EE3FFA5497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levankhelo.DamageReportMakerUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DamageReportMaker;
+			};
+			name = Release;
+		};
+		5F4608DD70D056798F90E89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levankhelo.DamageReportMakerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DamageReportMaker.app/DamageReportMaker";
+			};
+			name = Release;
+		};
+		6C274388315283B9D7D36E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Damage Report Maker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levankhelo.DamageReportMaker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BD0CCB6AA285B0E89BB811D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA8A364B993D2E2F6CE64F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levankhelo.DamageReportMakerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DamageReportMaker.app/DamageReportMaker";
+			};
+			name = Debug;
+		};
+		FA00C62EF4E19E8FDD80F013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Damage Report Maker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levankhelo.DamageReportMaker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E9A0FFBC3FB8D0E7FDAD561 /* Build configuration list for PBXProject "DamageReportMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0CCB6AA285B0E89BB811D4 /* Debug */,
+				51679507722C29CAF05A2B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C56764486B67CD53EE5AECCA /* Build configuration list for PBXNativeTarget "DamageReportMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA00C62EF4E19E8FDD80F013 /* Debug */,
+				6C274388315283B9D7D36E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D279151AFAF543DCB28C82CC /* Build configuration list for PBXNativeTarget "DamageReportMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8A364B993D2E2F6CE64F7E /* Debug */,
+				5F4608DD70D056798F90E89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E028079283BF548A4D8E45CC /* Build configuration list for PBXNativeTarget "DamageReportMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B3D30F72A9CB5D8786B101 /* Debug */,
+				549A669EDB5159EE3FFA5497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A3341EAF4E77365DF34FC0 /* Project object */;
+}
