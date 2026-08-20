@@ -55,6 +55,7 @@
 		3B8F412FF2253902D0C39FD9 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		3C39863374AEC10CD8AAB660 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
 		4235CA39B8072C3BF2C8D2E4 /* DamageReportMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageReportMakerTests.swift; sourceTree = "<group>"; };
+		46785FD9F33B3D3640F3202B /* WhatToTest.en-US.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WhatToTest.en-US.txt"; sourceTree = "<group>"; };
 		47BB87749E46193BE58BDA04 /* DamageReportMakerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DamageReportMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C87F827DFD8F8001A807A49 /* ReportDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailsView.swift; sourceTree = "<group>"; };
 		54A6F15AB32DC6D47B1E584A /* PDFReportGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReportGenerator.swift; sourceTree = "<group>"; };
@@ -126,6 +127,14 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
+		99B644DF4830252E1BD29B11 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				46785FD9F33B3D3640F3202B /* WhatToTest.en-US.txt */,
+			);
+			path = TestFlight;
+			sourceTree = "<group>";
+		};
 		A0A0D9EDED225C0F0D67B1DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +200,7 @@
 				3AB759ABA7C931B5F8902FF8 /* DamageReportMaker */,
 				7B0619401E57C6FD4DC7F560 /* DamageReportMakerTests */,
 				4A82398645EAD84302611F3B /* DamageReportMakerUITests */,
+				99B644DF4830252E1BD29B11 /* TestFlight */,
 				A0A0D9EDED225C0F0D67B1DD /* Products */,
 			);
 			sourceTree = "<group>";

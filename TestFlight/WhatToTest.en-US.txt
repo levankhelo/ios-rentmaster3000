@@ -1,0 +1,10 @@
+Damage Report Maker — first TestFlight beta
+
+Please focus on:
+- Create both a rental and a hotel damage report.
+- Enter incident details, add captions and up to eight photos, then relaunch the app and confirm the unfinished draft is restored.
+- Review and edit the complaint letter. Change report details and confirm the app warns before replacing an edited letter.
+- Generate both Letter and A4 PDFs. Check timestamps, captions, photo clarity, page layout, preview, and sharing.
+- Try Dark Mode and larger text sizes, and report any clipped or hard-to-read content.
+
+Known limitation: the pricing screen is a prototype; purchases are not enabled in this build. Report data stays on-device unless you choose to share it.
